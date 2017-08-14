@@ -1,1 +1,2 @@
-colMax <- function(x, ...){apply(cbind(x,...),1, max)}
+#Pure R
+colMax <- function(x, ...){apply(cbind(x,...),2, max)}
